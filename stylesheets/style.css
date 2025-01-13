@@ -32,9 +32,13 @@ nav ul {
                                                                                 
 nav ul li{
     margin-right: 20px;
+    
 }
 nav ul li a{
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
 }
 header{
     display: flex;
@@ -58,8 +62,11 @@ header{
 
 .logo{
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 24px;
     margin-left: 8%;
+    color: #f9faf8;
+    
+
 }
 
 #main-panel{
