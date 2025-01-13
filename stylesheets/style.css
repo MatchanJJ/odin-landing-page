@@ -26,15 +26,14 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-block: 1.5em;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin-left: auto;                                                                                                                                                                                         ;
+    padding: 0;                                                                                                                                                                                       ;
     display: flex;
-    justify-content: space-between;
+   
 }
                                                                                 
 nav ul li{
@@ -48,7 +47,7 @@ header{
     align-items: center ;
     justify-content: space-between;
     width: 100%;
-    padding: 1.5em 0
+
 }
 .header-container{
     width: 100%; 
@@ -65,4 +64,5 @@ header{
 .logo{
     font-weight: 700;
     font-size: 1.75rem;
+    margin-left: 8%;
 }
