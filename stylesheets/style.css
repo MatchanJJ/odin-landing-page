@@ -124,7 +124,8 @@ p.copyright{
 .main-pic{
     height: 50%;
     width: 60%;
-    aspect-ratio: 32/18;
+    aspect-ratio: 4/2;
     margin-right: 25%;
     margin-left: 10%;
 }
+
