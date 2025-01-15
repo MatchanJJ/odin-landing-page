@@ -2,7 +2,7 @@
    display: flex;
    background-color: pink;
    flex-direction: column;
-   height: 1080px;
+   height: 250vh;
 }
 
 .panel {
@@ -10,7 +10,7 @@
     border-color: rgb(0, 0, 0);
     border-width: 1px;
     width: 100%;
-    height: 250px;
+    height: 500px;
     display: flex;
    
 }
@@ -75,6 +75,10 @@ header{
 }
 #info-panel{
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 #quote-panel{
     background-color: #e5e7eb;
@@ -100,7 +104,7 @@ p.copyright{
 }
 
 .info1{
-    background-color: aqua;
+    background-color: #1f2937;
     width: 50%;
     justify-content: center;
     align-items: center;
@@ -108,7 +112,7 @@ p.copyright{
 }
 
 .info2{
-    background-color: antiquewhite;
+    background-color: #1f2937;
     width: 50%;
     justify-content: space-around;
     align-items: center;
@@ -119,6 +123,8 @@ p.copyright{
     justify-content: right;
     margin-left: 25%;
     margin-right: 10%;
+    flex: 1;
+    color: #f9faf8;
 }
 
 .main-pic{
@@ -127,5 +133,48 @@ p.copyright{
     aspect-ratio: 4/2;
     margin-right: 25%;
     margin-left: 10%;
+    flex: 1;
 }
 
+.info-heading{
+    background-color: rgb(70, 110, 110);
+    flex-basis: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.randInfo{
+
+}
+
+.info-boxes{
+    background-color: aquamarine;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+}
+
+.infobox-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#infobox1{
+    background-color: bisque;
+    
+}
+#infobox2{
+
+}
+#infobox3{
+
+}
+#infobox4{
+
+}
