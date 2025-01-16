@@ -82,6 +82,8 @@ header{
 }
 #quote-panel{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
 }
 #cta-panel{
     background-color: #3882f6;
@@ -154,8 +156,7 @@ p.copyright{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-inline: 15%;
     align-items: center;
 }
 
@@ -178,4 +179,20 @@ p.copyright{
 
 .infobox-text{
     padding: 12px;
+}
+
+.quote-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-inline: 15%;
+}
+
+.main-quote{
+}
+
+.quote-author{
+    
 }
