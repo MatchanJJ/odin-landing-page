@@ -163,18 +163,19 @@ p.copyright{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-#infobox1{
-    background-color: bisque;
     
 }
-#infobox2{
-
+.infobox{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(154, 108, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
 }
-#infobox3{
 
-}
-#infobox4{
 
+.infobox-text{
+    padding: 12px;
 }
