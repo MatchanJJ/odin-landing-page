@@ -86,7 +86,10 @@ header{
     justify-content: space-around;
 }
 #cta-panel{
-    background-color: #3882f6;
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
 }
 
 footer{
@@ -195,4 +198,18 @@ p.copyright{
 
 .quote-author{
     
+}
+
+.callToAction{
+    display: flex;
+    background-color: aqua;
+    height: 40%;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.cta-content{
+    margin-inline: 15%;
 }
